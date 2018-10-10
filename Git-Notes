@@ -1,0 +1,56 @@
+Github is Version Control System (VCS) 
+GIT
+SVN
+
+GIT
+ Repository is a bunch of files and folders (and these are cloned into version control 
+
+$ = the following is a command 
+$ git checkout  
+$ git branch lists the branches
+
+$ git clone  <…..rescache>
+(Creates local copy / working directory)
+
+$ git checkout -b  <branch-name> (create and checkout new branch with name specified) 
+(….makes the changes)
+
+$ git status (state of local copy)
+   M…. file name (modified)
+   A…. (added)
+   D…. (deleted)
+
+Origin - The repository you have cloned on your computer 
+Remote Repository - A repository that’s not on your computer
+
+Then ADD changes to get them to commit 
+$ git add <filenames>
+OR 
+$ git add .
+
+Then COMMIT 
+(Kind of like a bookmark. While working everything looks good here, and allows you to go back to the version saved at that time) 
+
+$ git commit -m “remove references to rescal from yams”
+-m means message
+
+Then PUSH changes (to remote repository) 
+
+$ git pull - gets all the changes from the origin repo and updates local copy 
+
+Touch command check to see if there is a file, if there isn’t it will create it
+
+Can change file name
+mv notes Notes
+
+
+Terminal 
+
+PWD - Path of Working Directory (where am I?)
+LS- list (whats in this directory?) 
+CD- change directory (ie. CD recache)
+CMD + T - new tab
+CMD + K = clear 
+cd ~ home directory
+CTRL + A = beginning of prompt 
+CTRL + E = end of prompt 
